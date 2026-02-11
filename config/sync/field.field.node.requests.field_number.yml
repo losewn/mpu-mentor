@@ -1,0 +1,19 @@
+uuid: be980ccd-1360-4227-a738-694d121e7985
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number
+    - node.type.requests
+id: node.requests.field_number
+field_name: field_number
+entity_type: node
+bundle: requests
+label: Number
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

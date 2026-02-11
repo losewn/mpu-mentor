@@ -1,0 +1,13 @@
+name: Webhouse
+type: theme
+description: Custom theme "Webhousel", maked from 'Starterkit theme'
+core_version_requirement: ^10
+logo: 'img/logo.png'
+base theme: starterkit_theme
+libraries:
+  - webhouse/global-styling
+# Regions, quote the names
+regions:
+  header: 'Header'
+  content: 'Content'
+  footer: 'Footer'

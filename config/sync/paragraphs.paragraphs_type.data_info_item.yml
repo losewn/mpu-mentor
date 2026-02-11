@@ -1,0 +1,10 @@
+uuid: 5144c1e9-aa87-4c0d-a53a-26614adfbf99
+langcode: en
+status: true
+dependencies: {  }
+id: data_info_item
+label: 'Data info item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

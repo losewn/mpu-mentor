@@ -1,0 +1,29 @@
+uuid: 9eeb3180-b22a-48d9-bc84-361822a8de6d
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cc708302-b9ef-4698-b3b1-fdb554c6950a'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - webhouse
+third_party_settings:
+  block_class:
+    classes: col-md-6
+id: webhouse_copyright
+theme: webhouse
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:cc708302-b9ef-4698-b3b1-fdb554c6950a'
+settings:
+  id: 'block_content:cc708302-b9ef-4698-b3b1-fdb554c6950a'
+  label: Copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

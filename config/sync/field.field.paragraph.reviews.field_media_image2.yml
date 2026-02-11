@@ -1,0 +1,29 @@
+uuid: 60fc6515-c318-40e8-b631-b9cee6032315
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_media_image2
+    - media.type.image
+    - paragraphs.paragraphs_type.reviews
+id: paragraph.reviews.field_media_image2
+field_name: field_media_image2
+entity_type: paragraph
+bundle: reviews
+label: Background
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: changed
+      direction: DESC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

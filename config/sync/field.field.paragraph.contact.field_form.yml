@@ -1,0 +1,19 @@
+uuid: ac8addbd-4a1d-4633-bdb9-3a8bee518c0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_form
+    - paragraphs.paragraphs_type.contact
+id: paragraph.contact.field_form
+field_name: field_form
+entity_type: paragraph
+bundle: contact
+label: Form
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

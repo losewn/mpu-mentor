@@ -1,0 +1,10 @@
+uuid: bdf3051b-a291-432c-ad8e-0d21869f711a
+langcode: en
+status: true
+dependencies: {  }
+id: our_portfolio
+label: 'Our Portfolio'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,33 @@
+uuid: 93f5d394-583d-4483-a0dd-85673561f41b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.our_portfolio.field_paragraph
+    - field.field.paragraph.our_portfolio.field_title
+    - paragraphs.paragraphs_type.our_portfolio
+  module:
+    - entity_reference_revisions
+id: paragraph.our_portfolio.default
+targetEntityType: paragraph
+bundle: our_portfolio
+mode: default
+content:
+  field_paragraph:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

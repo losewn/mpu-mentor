@@ -1,0 +1,36 @@
+uuid: dd1a4255-ed1f-43c2-86e5-6ccd59f1a966
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.requests.body
+    - field.field.node.requests.field_email
+    - field.field.node.requests.field_name
+    - field.field.node.requests.field_number
+    - node.type.requests
+  module:
+    - text
+    - user
+id: node.requests.teaser
+targetEntityType: node
+bundle: requests
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_email: true
+  field_name: true
+  field_number: true

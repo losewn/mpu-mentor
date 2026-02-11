@@ -1,0 +1,10 @@
+uuid: be36dda5-59d5-4f4c-b539-99cb178916e3
+langcode: en
+status: true
+dependencies: {  }
+id: new_offers
+label: 'New offers'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,17 @@
+webhouse_fluid:
+  label: 'WebHouse fluid (full width)'
+  category: 'WebHouse layout'
+  class: '\Drupal\webhouse_core\Plugin\Layout\FluidColumn'
+  template: templates/paragraphs/webhouse_fluid
+  regions:
+    content_paragraphs:
+      label: 'Content paragraphs'
+
+webhouse_container:
+  label: 'WebHouse container'
+  category: 'WebHouse layout'
+  class: '\Drupal\webhouse_core\Plugin\Layout\ContainerColumn'
+  template: templates/paragraphs/webhouse_container
+  regions:
+    content_paragraphs:
+      label: 'Content paragraphs'

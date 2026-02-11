@@ -1,0 +1,69 @@
+uuid: 51c385f4-d32e-4158-83a6-91f782ea4511
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.new_offers.field_link
+    - field.field.paragraph.new_offers.field_link2
+    - field.field.paragraph.new_offers.field_media_image
+    - field.field.paragraph.new_offers.field_media_image2
+    - field.field.paragraph.new_offers.field_text_plain_long
+    - field.field.paragraph.new_offers.field_title
+    - paragraphs.paragraphs_type.new_offers
+  module:
+    - link
+    - media_library
+id: paragraph.new_offers.default
+targetEntityType: paragraph
+bundle: new_offers
+mode: default
+content:
+  field_link:
+    type: link_default
+    weight: 2
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_link2:
+    type: link_default
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_media_image:
+    type: media_library_widget
+    weight: 4
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_media_image2:
+    type: media_library_widget
+    weight: 5
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_text_plain_long:
+    type: string_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

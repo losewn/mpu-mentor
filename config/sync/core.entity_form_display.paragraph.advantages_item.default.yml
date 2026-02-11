@@ -1,0 +1,42 @@
+uuid: 42fafcc1-116b-4845-b9d2-783a4491dcb8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.advantages_item.field_media_image
+    - field.field.paragraph.advantages_item.field_text
+    - field.field.paragraph.advantages_item.field_title
+    - paragraphs.paragraphs_type.advantages_item
+  module:
+    - media_library
+id: paragraph.advantages_item.default
+targetEntityType: paragraph
+bundle: advantages_item
+mode: default
+content:
+  field_media_image:
+    type: media_library_widget
+    weight: 4
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_text:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

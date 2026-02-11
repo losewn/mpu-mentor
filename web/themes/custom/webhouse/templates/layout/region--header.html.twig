@@ -1,0 +1,59 @@
+{#
+/**
+ * @file
+ * Theme override to display a region.
+ *
+ * Available variables:
+ * - content: The content for this region, typically blocks.
+ * - attributes: HTML attributes for the region <div>.
+ * - region: The name of the region variable as defined in the theme's
+ *   .info.yml file.
+ *
+ * @see template_preprocess_region()
+ */
+#}
+{%
+  set classes = [
+    'region',
+    'region-' ~ region|clean_class,
+  ]
+%}
+{% if content %}
+  <div {{ attributes.addClass(classes) }}>
+    <div class="header">
+      <div class="container">
+        <nav class="navbar navbar-inverse" role="navigation">
+
+          <div class="navbar-header">
+            <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="#" class="navbar-brand scroll-top">
+              <div class="logo"></div>
+            </a>
+          </div>
+          <!--/.navbar-header-->
+          {{ content }}
+
+{#          <div id="main-nav" class="collapse navbar-collapse">#}
+{#            <ul class="nav navbar-nav">#}
+{#              <li><a href="#" class="scroll-top">Home</a></li>#}
+{#              <li><a href="#" class="scroll-link" data-id="about">About Us</a></li>#}
+{#              <li><a href="#" class="scroll-link" data-id="portfolio">Portfolio</a></li>#}
+{#              <li><a href="#" class="scroll-link" data-id="blog">Blog</a></li>#}
+{#              <li><a href="#" class="scroll-link" data-id="contact">Contact Us</a></li>#}
+{#            </ul>#}
+{#          </div>#}
+
+          <!--/.navbar-collapse-->
+        </nav>
+        <!--/.navbar-->
+      </div>
+    </div>
+    <!--/.container-->
+  </div>
+
+{% endif %}

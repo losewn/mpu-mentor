@@ -1,0 +1,24 @@
+uuid: c006e3ba-fd09-498f-821d-cd6454395655
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.top_banner_slider.field_paragraph
+    - paragraphs.paragraphs_type.top_banner_slider
+  module:
+    - layout_paragraphs
+id: paragraph.top_banner_slider.default
+targetEntityType: paragraph
+bundle: top_banner_slider
+mode: default
+content:
+  field_paragraph:
+    type: layout_paragraphs
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

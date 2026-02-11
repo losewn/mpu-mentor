@@ -1,0 +1,68 @@
+uuid: 9f1cf72a-097a-4fd1-a7f7-0c5b7365b0bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraph
+    - node.type.technical_page
+  module:
+    - entity_reference_revisions
+id: node.technical_page.field_paragraph
+field_name: field_paragraph
+entity_type: node
+bundle: technical_page
+label: Paragraph
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles: null
+    negate: 0
+    target_bundles_drag_drop:
+      advantages:
+        weight: 15
+        enabled: false
+      advantages_item:
+        weight: 16
+        enabled: false
+      contact:
+        weight: 17
+        enabled: false
+      data_info:
+        weight: 18
+        enabled: false
+      data_info_item:
+        weight: 19
+        enabled: false
+      layout:
+        weight: 3
+        enabled: false
+      new_offers:
+        weight: 21
+        enabled: false
+      our_portfolio:
+        weight: 22
+        enabled: false
+      portfolio_item:
+        weight: 23
+        enabled: false
+      review_item:
+        weight: 25
+        enabled: false
+      reviews:
+        weight: 24
+        enabled: false
+      text_with_image:
+        weight: 26
+        enabled: false
+      top_banner_slider:
+        weight: 4
+        enabled: false
+      top_banner_slider_item:
+        weight: 28
+        enabled: false
+field_type: entity_reference_revisions

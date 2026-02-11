@@ -1,0 +1,22 @@
+uuid: 7ffa1c78-c541-4320-af89-68e297534d0e
+langcode: en
+status: false
+dependencies:
+  theme:
+    - webhouse
+_core:
+  default_config_hash: BCWhood0xXFQYqxFgL1spXdb9KeIuXH1YvTdjIEedDg
+id: webhouse_secondary_local_tasks
+theme: webhouse
+region: content
+weight: 1
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

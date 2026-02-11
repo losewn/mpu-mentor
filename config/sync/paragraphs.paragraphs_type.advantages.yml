@@ -1,0 +1,10 @@
+uuid: 2341d339-3bdc-40e5-a761-947218649d3b
+langcode: en
+status: true
+dependencies: {  }
+id: advantages
+label: Advantages
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

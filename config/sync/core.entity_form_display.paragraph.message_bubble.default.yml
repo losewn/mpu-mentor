@@ -1,0 +1,27 @@
+uuid: 3d6973a4-7090-4cd4-90f3-4cea94288e9e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.message_bubble.field_paragraph
+    - paragraphs.paragraphs_type.message_bubble
+  module:
+    - layout_paragraphs
+id: paragraph.message_bubble.default
+targetEntityType: paragraph
+bundle: message_bubble
+mode: default
+content:
+  field_paragraph:
+    type: layout_paragraphs
+    weight: 1
+    region: content
+    settings:
+      preview_view_mode: default
+      nesting_depth: 0
+      require_layouts: 0
+      empty_message: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

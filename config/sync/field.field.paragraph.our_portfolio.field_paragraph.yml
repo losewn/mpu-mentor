@@ -1,0 +1,73 @@
+uuid: 91d1025d-3cfb-4077-a490-29120c8689c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph
+    - paragraphs.paragraphs_type.our_portfolio
+    - paragraphs.paragraphs_type.portfolio_item
+  module:
+    - entity_reference_revisions
+id: paragraph.our_portfolio.field_paragraph
+field_name: field_paragraph
+entity_type: paragraph
+bundle: our_portfolio
+label: Paragraph
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      portfolio_item: portfolio_item
+    negate: 0
+    target_bundles_drag_drop:
+      advantages:
+        weight: 6
+        enabled: false
+      advantages_item:
+        weight: 7
+        enabled: false
+      contact:
+        weight: 18
+        enabled: false
+      data_info:
+        weight: 19
+        enabled: false
+      data_info_item:
+        weight: 20
+        enabled: false
+      layout:
+        weight: 4
+        enabled: false
+      new_offers:
+        weight: 22
+        enabled: false
+      our_portfolio:
+        weight: 23
+        enabled: false
+      portfolio_item:
+        weight: 24
+        enabled: true
+      review_item:
+        weight: 26
+        enabled: false
+      reviews:
+        weight: 25
+        enabled: false
+      text:
+        weight: 27
+        enabled: false
+      text_with_image:
+        weight: 28
+        enabled: false
+      top_banner_slider:
+        weight: 5
+        enabled: false
+      top_banner_slider_item:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

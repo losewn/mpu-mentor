@@ -1,0 +1,27 @@
+uuid: 3790a1a3-cbb1-4767-a44f-80815a366684
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.data_info.field_paragraph
+    - paragraphs.paragraphs_type.data_info
+  module:
+    - layout_paragraphs
+id: paragraph.data_info.default
+targetEntityType: paragraph
+bundle: data_info
+mode: default
+content:
+  field_paragraph:
+    type: layout_paragraphs
+    weight: 1
+    region: content
+    settings:
+      preview_view_mode: default
+      nesting_depth: 0
+      require_layouts: 0
+      empty_message: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,29 @@
+uuid: 043a4282-e8b9-4f9b-a60d-22ed2834e046
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:df726a0f-4bda-4b10-a395-ce261b0163e6'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - webhouse
+third_party_settings:
+  block_class:
+    classes: col-md-6
+id: webhouse_socialfooter
+theme: webhouse
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:df726a0f-4bda-4b10-a395-ce261b0163e6'
+settings:
+  id: 'block_content:df726a0f-4bda-4b10-a395-ce261b0163e6'
+  label: 'Social footer'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,33 @@
+uuid: 9b31c00f-518c-4139-8f37-1f60deb3b98f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.advantages.field_paragraph
+    - field.field.paragraph.advantages.field_title
+    - paragraphs.paragraphs_type.advantages
+  module:
+    - entity_reference_revisions
+id: paragraph.advantages.default
+targetEntityType: paragraph
+bundle: advantages
+mode: default
+content:
+  field_paragraph:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

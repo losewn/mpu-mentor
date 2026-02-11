@@ -1,0 +1,64 @@
+uuid: 1178e8e0-8ef2-498e-b160-72912c1245ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph
+    - paragraphs.paragraphs_type.data_info
+    - paragraphs.paragraphs_type.data_info_item
+  module:
+    - entity_reference_revisions
+id: paragraph.data_info.field_paragraph
+field_name: field_paragraph
+entity_type: paragraph
+bundle: data_info
+label: Paragraph
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      data_info_item: data_info_item
+    negate: 0
+    target_bundles_drag_drop:
+      advantages:
+        weight: 6
+        enabled: false
+      advantages_item:
+        weight: 7
+        enabled: false
+      data_info:
+        weight: 15
+        enabled: false
+      data_info_item:
+        weight: 16
+        enabled: true
+      layout:
+        weight: 4
+        enabled: false
+      new_offers:
+        weight: 18
+        enabled: false
+      our_portfolio:
+        weight: 19
+        enabled: false
+      portfolio_item:
+        weight: 20
+        enabled: false
+      review_item:
+        weight: 22
+        enabled: false
+      reviews:
+        weight: 21
+        enabled: false
+      top_banner_slider:
+        weight: 5
+        enabled: false
+      top_banner_slider_item:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,30 @@
+uuid: b8351f53-1cc0-4b85-91ed-5e8bcf854d38
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.data_info_item.field_text
+    - field.field.paragraph.data_info_item.field_title
+    - paragraphs.paragraphs_type.data_info_item
+id: paragraph.data_info_item.default
+targetEntityType: paragraph
+bundle: data_info_item
+mode: default
+content:
+  field_text:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

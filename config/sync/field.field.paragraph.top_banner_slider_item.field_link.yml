@@ -1,0 +1,23 @@
+uuid: fe896983-103d-42ae-adcb-8da5866da5a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_link
+    - paragraphs.paragraphs_type.top_banner_slider_item
+  module:
+    - link
+id: paragraph.top_banner_slider_item.field_link
+field_name: field_link
+entity_type: paragraph
+bundle: top_banner_slider_item
+label: Link
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

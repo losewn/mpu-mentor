@@ -1,0 +1,34 @@
+uuid: cbfc95e6-d79a-49cd-9cd5-4b20868aa23d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.technical_page.body
+    - field.field.node.technical_page.field_metatag
+    - field.field.node.technical_page.field_paragraph
+    - node.type.technical_page
+  module:
+    - text
+    - user
+id: node.technical_page.teaser
+targetEntityType: node
+bundle: technical_page
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_metatag: true
+  field_paragraph: true

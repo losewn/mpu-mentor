@@ -1,0 +1,37 @@
+uuid: 4c0fa494-2e76-4242-af4b-83199dd9a1ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.portfolio_item.field_link
+    - field.field.paragraph.portfolio_item.field_media_image
+    - paragraphs.paragraphs_type.portfolio_item
+  module:
+    - link
+id: paragraph.portfolio_item.default
+targetEntityType: paragraph
+bundle: portfolio_item
+mode: default
+content:
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_media_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden: {  }

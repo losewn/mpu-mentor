@@ -1,0 +1,29 @@
+uuid: 5626fc22-c5c9-4987-9083-072eaf8dc48b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e19dc336-6c47-40ff-9546-113a3711145f'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - webhouse
+third_party_settings:
+  block_class:
+    classes: col-md-6
+id: webhouse_webhomeagencyblock
+theme: webhouse
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:e19dc336-6c47-40ff-9546-113a3711145f'
+settings:
+  id: 'block_content:e19dc336-6c47-40ff-9546-113a3711145f'
+  label: 'WebHome Agency block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

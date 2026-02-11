@@ -1,0 +1,10 @@
+uuid: f451618f-1c37-42be-943d-cd800fd3f0d8
+langcode: en
+status: true
+dependencies: {  }
+id: portfolio_item
+label: 'Portfolio item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

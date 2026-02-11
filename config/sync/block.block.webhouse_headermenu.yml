@@ -1,0 +1,25 @@
+uuid: 7552c132-7eb4-4eaa-8666-36561351b928
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:50a3c304-d427-4b3c-af12-1eef7a8817d0'
+  module:
+    - block_content
+  theme:
+    - webhouse
+id: webhouse_headermenu
+theme: webhouse
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:50a3c304-d427-4b3c-af12-1eef7a8817d0'
+settings:
+  id: 'block_content:50a3c304-d427-4b3c-af12-1eef7a8817d0'
+  label: 'Header menu'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

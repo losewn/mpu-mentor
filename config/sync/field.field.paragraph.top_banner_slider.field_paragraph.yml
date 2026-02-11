@@ -1,0 +1,37 @@
+uuid: 19d69b5b-7ddf-4550-804d-cedaad603350
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph
+    - paragraphs.paragraphs_type.top_banner_slider
+    - paragraphs.paragraphs_type.top_banner_slider_item
+  module:
+    - entity_reference_revisions
+id: paragraph.top_banner_slider.field_paragraph
+field_name: field_paragraph
+entity_type: paragraph
+bundle: top_banner_slider
+label: Paragraph
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      top_banner_slider_item: top_banner_slider_item
+    negate: 0
+    target_bundles_drag_drop:
+      layout:
+        weight: 4
+        enabled: false
+      top_banner_slider:
+        weight: 5
+        enabled: false
+      top_banner_slider_item:
+        weight: 6
+        enabled: true
+field_type: entity_reference_revisions

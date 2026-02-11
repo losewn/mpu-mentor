@@ -1,0 +1,5 @@
+name: 'WebHouse Core'
+type: module
+description: 'WebHouse Core functions.'
+core_version_requirement: ^10
+package: 'custom'

@@ -1,0 +1,10 @@
+uuid: b81719b1-168e-4121-a884-ae757d714f04
+langcode: en
+status: true
+dependencies: {  }
+id: review_item
+label: 'Review item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

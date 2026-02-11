@@ -1,0 +1,22 @@
+uuid: cd59f3d2-1744-4313-9cba-c50fcad13d7a
+langcode: en
+status: false
+dependencies:
+  theme:
+    - webhouse
+_core:
+  default_config_hash: Hh01DLj9k7UnNdPpOQXHZHW7GHf2OPNDQyCJF7_R9ac
+id: webhouse_primary_local_tasks
+theme: webhouse
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

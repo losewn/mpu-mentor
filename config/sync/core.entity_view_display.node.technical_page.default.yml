@@ -1,0 +1,48 @@
+uuid: f43b0f95-405d-45a7-aa73-f418edfe3ed3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.technical_page.body
+    - field.field.node.technical_page.field_metatag
+    - field.field.node.technical_page.field_paragraph
+    - node.type.technical_page
+  module:
+    - layout_paragraphs
+    - metatag
+    - text
+    - user
+id: node.technical_page.default
+targetEntityType: node
+bundle: technical_page
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_metatag:
+    type: metatag_empty_formatter
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_paragraph:
+    type: layout_paragraphs
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

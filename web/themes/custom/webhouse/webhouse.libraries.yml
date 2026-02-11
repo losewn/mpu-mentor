@@ -1,0 +1,19 @@
+global-styling:
+  js:
+    https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js: { }
+    js/bootstrap.min.js: { }
+    js/plugins.js: { }
+    js/modernizr-2.8.3-respond-1.4.2.min.js: { }
+    js/jquery.min.js: { }
+    js/main.js: { }
+  css:
+    component:
+      css/bootstrap.min.css: { }
+      css/bootstrap-theme.min.css: { }
+      css/fontAwesome.css: { }
+      css/fonts.css: { }
+      css/style2.css: { }
+      css/style.css: { }
+  dependencies:
+    - core/drupal
+    - core/once

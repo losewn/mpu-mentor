@@ -1,0 +1,55 @@
+uuid: 4fc63c86-b8ec-4331-8899-df1ec2964bc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.requests.body
+    - field.field.node.requests.field_email
+    - field.field.node.requests.field_name
+    - field.field.node.requests.field_number
+    - node.type.requests
+  module:
+    - text
+    - user
+id: node.requests.default
+targetEntityType: node
+bundle: requests
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_email:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  field_name:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_number:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

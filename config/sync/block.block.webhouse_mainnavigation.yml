@@ -1,0 +1,25 @@
+uuid: b71bee0e-920c-4f6d-b522-2f834d0c32e0
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - webhouse
+id: webhouse_mainnavigation
+theme: webhouse
+region: header
+weight: -2
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
