@@ -29,24 +29,24 @@ class ContactParagraphForm extends FormBase {
 
     $form['name'] = [
       '#type' => 'textfield',
-      '#title' => $this->t("Ваше ім'я"),
+      '#title' => $this->t("Ihr Name"),
       '#maxlength' => 64,
       '#size' => 64,
       '#required' => TRUE,
     ];
     $form['contact'] = array(
       '#type' => 'tel',
-      '#title' => t('Телефон або електронна пошта'),
+      '#title' => t('Telefon oder E-Mail'),
       '#required' => TRUE,
     );
     $form['message'] = array(
       '#type' => 'textarea',
-      '#title' => t('Напишіть нам повідомлення'),
+      '#title' => t('Schreiben Sie uns eine Nachricht'),
       '#required' => TRUE,
     );
     $form['submit'] = [
       '#type' => 'submit',
-      '#value' => t('Отримати консультацію?'),
+      '#value' => t('Beratung anfragen'),
       '#prefix' => '<div class="bottom-block">',
     ];
 

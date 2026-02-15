@@ -5,17 +5,6 @@ dependencies:
   config:
     - field.storage.node.field_paragraph
     - node.type.page
-    - paragraphs.paragraphs_type.advantages
-    - paragraphs.paragraphs_type.contact
-    - paragraphs.paragraphs_type.data_info
-    - paragraphs.paragraphs_type.layout
-    - paragraphs.paragraphs_type.message_bubble
-    - paragraphs.paragraphs_type.new_offers
-    - paragraphs.paragraphs_type.our_portfolio
-    - paragraphs.paragraphs_type.reviews
-    - paragraphs.paragraphs_type.text
-    - paragraphs.paragraphs_type.text_with_image
-    - paragraphs.paragraphs_type.top_banner_slider
   module:
     - entity_reference_revisions
 id: node.page.field_paragraph
@@ -31,69 +20,13 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    target_bundles:
-      layout: layout
-      top_banner_slider: top_banner_slider
-      advantages: advantages
-      contact: contact
-      data_info: data_info
-      new_offers: new_offers
-      our_portfolio: our_portfolio
-      reviews: reviews
-      text: text
-      text_with_image: text_with_image
-      message_bubble: message_bubble
+    target_bundles: null
     negate: 0
     target_bundles_drag_drop:
-      advantages:
-        weight: -28
-        enabled: true
-      advantages_item:
-        weight: -27
-        enabled: false
-      contact:
-        weight: -26
-        enabled: true
-      data_info:
-        weight: -25
-        enabled: true
-      data_info_item:
-        weight: -24
-        enabled: false
       layout:
-        weight: -31
-        enabled: true
-      message_bubble:
-        weight: 24
-        enabled: true
-      message_bubble_item:
-        weight: 25
+        weight: 3
         enabled: false
-      new_offers:
-        weight: -23
-        enabled: true
-      our_portfolio:
-        weight: -22
-        enabled: true
-      portfolio_item:
-        weight: -21
-        enabled: false
-      review_item:
-        weight: -19
-        enabled: false
-      reviews:
-        weight: -20
-        enabled: true
-      text:
-        weight: -18
-        enabled: true
-      text_with_image:
-        weight: -17
-        enabled: true
       top_banner_slider:
-        weight: -30
-        enabled: true
-      top_banner_slider_item:
-        weight: -29
+        weight: 4
         enabled: false
 field_type: entity_reference_revisions

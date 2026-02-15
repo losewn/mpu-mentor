@@ -2,13 +2,13 @@ _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
 uuid: ba3ffd01-90b0-44e4-a191-196efa8c782a
-name: Fast-Trip
-mail: admin@fast-trip.in.ua
+name: 'MPU Mentor'
+mail: example@example.com
 slogan: ''
 page:
   403: /node/8
   404: /node/7
-  front: /node/19
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 default_langcode: en
