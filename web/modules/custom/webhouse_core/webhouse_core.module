@@ -9,6 +9,13 @@ use \Drupal\Core\Entity\EntityInterface;
 use \Drupal\Core\Entity\Display\EntityViewDisplayInterface;
 
 /**
+ * Implements hook_user_login().
+ */
+function webhouse_core_user_login($account) {
+  \Drupal::service('request_stack')->getCurrentRequest()->query->set('destination', '/');
+}
+
+/**
  * Implements hook_ENTITY_TYPE_view().
  */
 function webhouse_core_paragraph_view(array &$build, EntityInterface $entity, EntityViewDisplayInterface $display, $view_mode) {
