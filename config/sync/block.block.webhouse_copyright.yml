@@ -11,7 +11,7 @@ dependencies:
     - webhouse
 third_party_settings:
   block_class:
-    classes: col-md-6
+    classes: col-md-4
 id: webhouse_copyright
 theme: webhouse
 region: footer

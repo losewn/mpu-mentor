@@ -1,9 +1,9 @@
-uuid: 5626fc22-c5c9-4987-9083-072eaf8dc48b
+uuid: 7b9d8248-bbb4-4324-ab03-94328a0b1f67
 langcode: en
 status: true
 dependencies:
   content:
-    - 'block_content:basic:e19dc336-6c47-40ff-9546-113a3711145f'
+    - 'block_content:basic:cd3a9b44-a3fc-4634-bfb7-211e26f3cf42'
   module:
     - block_class
     - block_content
@@ -12,15 +12,15 @@ dependencies:
 third_party_settings:
   block_class:
     classes: col-md-4
-id: webhouse_webhomeagencyblock
+id: webhouse_socialblock
 theme: webhouse
 region: footer
 weight: 0
 provider: null
-plugin: 'block_content:e19dc336-6c47-40ff-9546-113a3711145f'
+plugin: 'block_content:cd3a9b44-a3fc-4634-bfb7-211e26f3cf42'
 settings:
-  id: 'block_content:e19dc336-6c47-40ff-9546-113a3711145f'
-  label: 'WebHome Agency block'
+  id: 'block_content:cd3a9b44-a3fc-4634-bfb7-211e26f3cf42'
+  label: 'Social block'
   label_display: '0'
   provider: block_content
   status: true

@@ -3,7 +3,7 @@ _core:
 maxlength_block_class_field: 255
 field_type: multiple_textfields
 default_case: standard
-block_classes_stored: '{"navbar-header":"navbar-header","col-md-6":"col-md-6"}'
+block_classes_stored: '{"navbar-header":"navbar-header","col-md-6":"col-md-6","col-md-4":"col-md-4"}'
 enable_attributes: true
 enable_auto_complete: true
 qty_classes_per_block: 10
