@@ -1,0 +1,10 @@
+uuid: b3c5a8a6-eb47-43fc-a79e-84b5f0c5fe72
+langcode: en
+status: true
+dependencies: {  }
+id: message_bubble_item
+label: 'Message bubble item'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,88 @@
+uuid: 69ed0580-1816-4309-bc57-9dcf28be1764
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_paragraph
+    - paragraphs.paragraphs_type.message_bubble
+    - paragraphs.paragraphs_type.message_bubble_item
+  module:
+    - entity_reference_revisions
+id: paragraph.message_bubble.field_paragraph
+field_name: field_paragraph
+entity_type: paragraph
+bundle: message_bubble
+label: Paragraph
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      message_bubble_item: message_bubble_item
+    negate: 0
+    target_bundles_drag_drop:
+      counter:
+        weight: -8
+        enabled: false
+      counter_item:
+        weight: -7
+        enabled: false
+      front_top_banner:
+        weight: -10
+        enabled: false
+      front_top_banner_item:
+        weight: -9
+        enabled: false
+      image_with_text:
+        weight: 25
+        enabled: false
+      layout:
+        weight: -11
+        enabled: false
+      message_bubble:
+        weight: 27
+        enabled: false
+      message_bubble_item:
+        weight: 28
+        enabled: true
+      other_top_banner:
+        weight: 29
+        enabled: false
+      routes:
+        weight: 30
+        enabled: false
+      routes_grid:
+        weight: 31
+        enabled: false
+      routes_grid_item:
+        weight: 32
+        enabled: false
+      routes_item:
+        weight: 33
+        enabled: false
+      services:
+        weight: 34
+        enabled: false
+      services_item:
+        weight: 35
+        enabled: false
+      testimonial:
+        weight: 36
+        enabled: false
+      testimonial_item:
+        weight: 37
+        enabled: false
+      text:
+        weight: 38
+        enabled: false
+      two_blocks:
+        weight: 39
+        enabled: false
+      two_blocks_item:
+        weight: 40
+        enabled: false
+field_type: entity_reference_revisions

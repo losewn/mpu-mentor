@@ -1,0 +1,19 @@
+uuid: 2e1d5099-81ab-43a6-9f49-cd5b21449cd7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_subtitle
+    - paragraphs.paragraphs_type.message_bubble_item
+id: paragraph.message_bubble_item.field_subtitle
+field_name: field_subtitle
+entity_type: paragraph
+bundle: message_bubble_item
+label: Link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
